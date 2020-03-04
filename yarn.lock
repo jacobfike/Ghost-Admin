@@ -5739,12 +5739,14 @@ ember-in-viewport@3.5.8, ember-in-viewport@~3.0.0, ember-in-viewport@~3.7.1:
     intersection-observer-admin "~0.2.5"
     raf-pool "0.1.0"
 
-ember-infinity@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/ember-infinity/-/ember-infinity-2.0.3.tgz#bbe4bbc7fc441a681b270652b5f82d1a31ff3216"
-  integrity sha512-AzpZg3p1G1FtT2u5W7NTOXZRli8pKiqYl6VUqdB6hsWNoA16nEOPVQr4BW149bGZT7M/5XlTQofWsz0KkxSy7w==
+ember-infinity@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/ember-infinity/-/ember-infinity-2.1.0.tgz#2df587e81efdf35f59157bbce010c9a3fb1e5879"
+  integrity sha512-Sc9UR3CurpqAhq2vKcEXyf4SikfTRJB4U4nH7JFCln99E77+eDwrjkb539ayYwgDyptmpG3LIgK3ZFmOKZ8rdg==
   dependencies:
+    "@ember/render-modifiers" "^1.0.2"
     ember-cli-babel "~7.11.0"
+    ember-cli-htmlbars "^3.0.1"
     ember-in-viewport "~3.7.1"
 
 "ember-inflector@^2.0.0 || ^3.0.0", ember-inflector@^3.0.1:
